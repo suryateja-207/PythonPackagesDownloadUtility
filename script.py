@@ -4,7 +4,6 @@ import argparse
 
 
 def parse_dependencies(json_file):
-    parsed_dependencies = list()
     try:
         dependencies = open(json_file)
         dependencies = dependencies.read()
